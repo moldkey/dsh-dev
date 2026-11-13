@@ -1,0 +1,4 @@
+# 命名风格：to pascal
+- insert:
+    - id: dsh-case-to-pascal
+      name: "dsh-case-to-pascal"

@@ -1,0 +1,4 @@
+# 命名风格：to toggle
+- insert:
+    - id: dsh-case-to-toggle
+      name: "dsh-case-to-toggle"

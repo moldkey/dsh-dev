@@ -1,0 +1,4 @@
+# 命名风格：to snake
+- insert:
+    - id: dsh-case-to-snake
+      name: "dsh-case-to-snake"

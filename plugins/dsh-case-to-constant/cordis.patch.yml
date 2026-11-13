@@ -1,0 +1,4 @@
+# 命名风格：to constant
+- insert:
+    - id: dsh-case-to-constant
+      name: "dsh-case-to-constant"

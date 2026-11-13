@@ -1,0 +1,4 @@
+# 命名风格：to camel
+- insert:
+    - id: dsh-case-to-camel
+      name: "dsh-case-to-camel"

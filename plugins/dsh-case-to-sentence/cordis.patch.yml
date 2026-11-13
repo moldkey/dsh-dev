@@ -1,0 +1,4 @@
+# 命名风格：to sentence
+- insert:
+    - id: dsh-case-to-sentence
+      name: "dsh-case-to-sentence"

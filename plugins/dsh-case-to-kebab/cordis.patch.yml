@@ -1,0 +1,4 @@
+# 命名风格：to kebab
+- insert:
+    - id: dsh-case-to-kebab
+      name: "dsh-case-to-kebab"
