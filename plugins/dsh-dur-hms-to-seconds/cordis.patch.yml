@@ -1,0 +1,4 @@
+# 时长工具：hms to seconds
+- insert:
+    - id: dsh-dur-hms-to-seconds
+      name: "dsh-dur-hms-to-seconds"
