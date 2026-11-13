@@ -1,0 +1,4 @@
+# 开发工具：生成 UUID
+- insert:
+    - id: dsh-dev-uuid-gen
+      name: "dsh-dev-uuid-gen"

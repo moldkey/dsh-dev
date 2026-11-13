@@ -1,0 +1,4 @@
+# 开发工具：JSON 转 key=value
+- insert:
+    - id: dsh-dev-json-to-kv
+      name: "dsh-dev-json-to-kv"

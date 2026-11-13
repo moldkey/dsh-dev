@@ -1,0 +1,4 @@
+# 开发工具：生成 robots.txt
+- insert:
+    - id: dsh-dev-robots-gen
+      name: "dsh-dev-robots-gen"

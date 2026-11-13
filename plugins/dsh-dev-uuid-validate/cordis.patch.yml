@@ -1,0 +1,4 @@
+# 开发工具：校验 UUID
+- insert:
+    - id: dsh-dev-uuid-validate
+      name: "dsh-dev-uuid-validate"

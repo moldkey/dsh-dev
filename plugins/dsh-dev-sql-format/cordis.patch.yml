@@ -1,0 +1,4 @@
+# 开发工具：SQL 格式化
+- insert:
+    - id: dsh-dev-sql-format
+      name: "dsh-dev-sql-format"

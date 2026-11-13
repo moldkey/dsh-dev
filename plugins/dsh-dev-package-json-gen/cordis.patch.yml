@@ -1,0 +1,4 @@
+# 开发工具：生成 package.json
+- insert:
+    - id: dsh-dev-package-json-gen
+      name: "dsh-dev-package-json-gen"

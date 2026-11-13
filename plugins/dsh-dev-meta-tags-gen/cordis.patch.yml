@@ -1,0 +1,4 @@
+# 开发工具：生成 SEO Meta
+- insert:
+    - id: dsh-dev-meta-tags-gen
+      name: "dsh-dev-meta-tags-gen"

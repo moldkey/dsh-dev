@@ -1,0 +1,4 @@
+# 开发工具：生成 Nginx 跳转
+- insert:
+    - id: dsh-dev-nginx-redirect
+      name: "dsh-dev-nginx-redirect"

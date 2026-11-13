@@ -1,0 +1,4 @@
+# 开发工具：生成 Dockerfile
+- insert:
+    - id: dsh-dev-dockerfile-gen
+      name: "dsh-dev-dockerfile-gen"

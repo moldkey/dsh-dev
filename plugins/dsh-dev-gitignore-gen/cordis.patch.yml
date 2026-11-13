@@ -1,0 +1,4 @@
+# 开发工具：生成 .gitignore
+- insert:
+    - id: dsh-dev-gitignore-gen
+      name: "dsh-dev-gitignore-gen"

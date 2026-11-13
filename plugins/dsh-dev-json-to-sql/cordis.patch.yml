@@ -1,0 +1,4 @@
+# 开发工具：JSON 转 SQL
+- insert:
+    - id: dsh-dev-json-to-sql
+      name: "dsh-dev-json-to-sql"

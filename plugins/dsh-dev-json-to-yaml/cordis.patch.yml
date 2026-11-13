@@ -1,0 +1,4 @@
+# 开发工具：JSON 转 YAML
+- insert:
+    - id: dsh-dev-json-to-yaml
+      name: "dsh-dev-json-to-yaml"
