@@ -1,7 +1,7 @@
 /**
  * 开发工具：Unicode 转义
  *
- * 转成 \\uXXXX
+ * 转成 \uXXXX
  */
 
 export const name = "dsh-dev-unicode-escape";
@@ -356,7 +356,7 @@ export function apply(ctx, config) {
     name: "dev_unicode_escape",
     description: "Unicode 转义：转成 \\uXXXX",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
+      text: { "type": "string", required: true, "description": "输入内容" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

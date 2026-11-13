@@ -356,7 +356,7 @@ export function apply(ctx, config) {
     name: "dev_json_unescape",
     description: "JSON 字符串反转义：还原被转义的字符串",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
+      text: { "type": "string", required: true, "description": "输入内容" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

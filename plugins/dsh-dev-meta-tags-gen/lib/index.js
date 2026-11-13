@@ -356,7 +356,7 @@ export function apply(ctx, config) {
     name: "dev_meta_tags_gen",
     description: "生成 SEO Meta：参数为 JSON {title, description}",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
+      text: { "type": "string", required: true, "description": "输入内容" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

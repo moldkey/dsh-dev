@@ -356,7 +356,7 @@ export function apply(ctx, config) {
     name: "dev_yaml_to_json",
     description: "YAML 转 JSON：简单 key: value 解析",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
+      text: { "type": "string", required: true, "description": "输入内容" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

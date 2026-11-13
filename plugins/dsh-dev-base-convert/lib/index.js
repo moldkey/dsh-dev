@@ -356,9 +356,9 @@ export function apply(ctx, config) {
     name: "dev_base_convert",
     description: "进制转换：a=源进制，b=目标进制",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
-      a: { type: "string", description: "参数 a" },
-      b: { type: "string", description: "参数 b" },
+      text: { "type": "string", required: true, "description": "输入内容" },
+      a: { "type": "string", "description": "参数 a" },
+      b: { "type": "string", "description": "参数 b" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

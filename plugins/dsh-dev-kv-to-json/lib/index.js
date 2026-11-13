@@ -356,7 +356,7 @@ export function apply(ctx, config) {
     name: "dev_kv_to_json",
     description: "key=value 转 JSON：每行 key=value",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
+      text: { "type": "string", required: true, "description": "输入内容" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

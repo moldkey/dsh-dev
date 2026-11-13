@@ -356,7 +356,7 @@ export function apply(ctx, config) {
     name: "dev_url_build",
     description: "URL 拼接：参数为 JSON {base, params}",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
+      text: { "type": "string", required: true, "description": "输入内容" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

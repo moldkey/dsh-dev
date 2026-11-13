@@ -356,7 +356,7 @@ export function apply(ctx, config) {
     name: "dev_binary_to_text",
     description: "二进制转文本：8 位一组",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
+      text: { "type": "string", required: true, "description": "输入内容" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

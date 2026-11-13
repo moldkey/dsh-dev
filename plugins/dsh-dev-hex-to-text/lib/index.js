@@ -356,7 +356,7 @@ export function apply(ctx, config) {
     name: "dev_hex_to_text",
     description: "十六进制转文本：支持空格分隔",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
+      text: { "type": "string", required: true, "description": "输入内容" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

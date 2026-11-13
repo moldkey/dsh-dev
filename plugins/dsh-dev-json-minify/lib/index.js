@@ -356,7 +356,7 @@ export function apply(ctx, config) {
     name: "dev_json_minify",
     description: "JSON 压缩：去掉所有空白",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
+      text: { "type": "string", required: true, "description": "输入内容" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

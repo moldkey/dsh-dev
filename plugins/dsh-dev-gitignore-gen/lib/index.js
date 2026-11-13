@@ -356,8 +356,8 @@ export function apply(ctx, config) {
     name: "dev_gitignore_gen",
     description: "生成 .gitignore：a=技术栈（node/python/go/java）",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
-      a: { type: "string", description: "参数 a" },
+      text: { "type": "string", required: true, "description": "输入内容" },
+      a: { "type": "string", "description": "参数 a" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

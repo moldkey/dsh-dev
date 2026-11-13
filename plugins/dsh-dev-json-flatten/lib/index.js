@@ -356,7 +356,7 @@ export function apply(ctx, config) {
     name: "dev_json_flatten",
     description: "JSON 扁平化：展开成 key = value 列表",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
+      text: { "type": "string", required: true, "description": "输入内容" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

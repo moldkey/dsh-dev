@@ -356,7 +356,7 @@ export function apply(ctx, config) {
     name: "dev_cron_next",
     description: "Cron 说明：解释字段并说明",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
+      text: { "type": "string", required: true, "description": "输入内容" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

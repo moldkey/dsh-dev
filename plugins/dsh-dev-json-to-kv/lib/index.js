@@ -356,7 +356,7 @@ export function apply(ctx, config) {
     name: "dev_json_to_kv",
     description: "JSON 转 key=value：扁平化成配置行",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
+      text: { "type": "string", required: true, "description": "输入内容" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

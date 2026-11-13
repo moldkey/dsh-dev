@@ -356,7 +356,7 @@ export function apply(ctx, config) {
     name: "dev_json_sort_keys",
     description: "JSON 键排序：递归按键名排序",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
+      text: { "type": "string", required: true, "description": "输入内容" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

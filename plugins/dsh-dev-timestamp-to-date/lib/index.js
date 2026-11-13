@@ -356,8 +356,8 @@ export function apply(ctx, config) {
     name: "dev_timestamp_to_date",
     description: "时间戳转日期：a=时区偏移，默认 8",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
-      a: { type: "string", description: "参数 a" },
+      text: { "type": "string", required: true, "description": "输入内容" },
+      a: { "type": "string", "description": "参数 a" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

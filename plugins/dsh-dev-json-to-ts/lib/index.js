@@ -356,7 +356,7 @@ export function apply(ctx, config) {
     name: "dev_json_to_ts",
     description: "JSON 转 TypeScript：生成 interface",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
+      text: { "type": "string", required: true, "description": "输入内容" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

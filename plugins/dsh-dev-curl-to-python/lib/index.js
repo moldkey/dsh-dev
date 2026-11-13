@@ -356,7 +356,7 @@ export function apply(ctx, config) {
     name: "dev_curl_to_python",
     description: "cURL 转 Python：生成 requests 代码",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
+      text: { "type": "string", required: true, "description": "输入内容" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

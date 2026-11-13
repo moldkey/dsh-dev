@@ -356,7 +356,7 @@ export function apply(ctx, config) {
     name: "dev_json_validate",
     description: "JSON 校验：检查是否合法并给出类型与大小",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
+      text: { "type": "string", required: true, "description": "输入内容" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

@@ -356,8 +356,8 @@ export function apply(ctx, config) {
     name: "dev_nginx_redirect",
     description: "生成 Nginx 跳转：a=目标地址",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
-      a: { type: "string", description: "参数 a" },
+      text: { "type": "string", required: true, "description": "输入内容" },
+      a: { "type": "string", "description": "参数 a" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

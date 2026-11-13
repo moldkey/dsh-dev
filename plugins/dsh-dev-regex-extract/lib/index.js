@@ -356,8 +356,8 @@ export function apply(ctx, config) {
     name: "dev_regex_extract",
     description: "正则提取：a=正则，提取分组",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
-      a: { type: "string", description: "参数 a" },
+      text: { "type": "string", required: true, "description": "输入内容" },
+      a: { "type": "string", "description": "参数 a" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

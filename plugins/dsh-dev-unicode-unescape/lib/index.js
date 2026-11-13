@@ -1,7 +1,7 @@
 /**
  * 开发工具：Unicode 反转义
  *
- * 还原 \\uXXXX
+ * 还原 \uXXXX
  */
 
 export const name = "dsh-dev-unicode-unescape";
@@ -356,7 +356,7 @@ export function apply(ctx, config) {
     name: "dev_unicode_unescape",
     description: "Unicode 反转义：还原 \\uXXXX",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
+      text: { "type": "string", required: true, "description": "输入内容" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

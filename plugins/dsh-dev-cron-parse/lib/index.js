@@ -356,7 +356,7 @@ export function apply(ctx, config) {
     name: "dev_cron_parse",
     description: "Cron 解析：解释 5 段字段",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
+      text: { "type": "string", required: true, "description": "输入内容" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

@@ -356,8 +356,8 @@ export function apply(ctx, config) {
     name: "dev_port_lookup",
     description: "端口服务查询：a=端口号",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
-      a: { type: "string", description: "参数 a" },
+      text: { "type": "string", required: true, "description": "输入内容" },
+      a: { "type": "string", "description": "参数 a" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

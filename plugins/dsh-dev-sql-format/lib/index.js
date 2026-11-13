@@ -356,7 +356,7 @@ export function apply(ctx, config) {
     name: "dev_sql_format",
     description: "SQL 格式化：关键字换行大写",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
+      text: { "type": "string", required: true, "description": "输入内容" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

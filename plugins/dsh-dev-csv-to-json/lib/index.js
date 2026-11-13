@@ -356,7 +356,7 @@ export function apply(ctx, config) {
     name: "dev_csv_to_json",
     description: "CSV 转 JSON：首行为表头",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
+      text: { "type": "string", required: true, "description": "输入内容" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

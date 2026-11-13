@@ -356,8 +356,8 @@ export function apply(ctx, config) {
     name: "dev_regex_test",
     description: "正则测试：a=正则，列出所有匹配",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
-      a: { type: "string", description: "参数 a" },
+      text: { "type": "string", required: true, "description": "输入内容" },
+      a: { "type": "string", "description": "参数 a" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

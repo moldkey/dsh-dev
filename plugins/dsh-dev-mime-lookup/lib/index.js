@@ -356,8 +356,8 @@ export function apply(ctx, config) {
     name: "dev_mime_lookup",
     description: "MIME 查询：a=扩展名",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
-      a: { type: "string", description: "参数 a" },
+      text: { "type": "string", required: true, "description": "输入内容" },
+      a: { "type": "string", "description": "参数 a" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

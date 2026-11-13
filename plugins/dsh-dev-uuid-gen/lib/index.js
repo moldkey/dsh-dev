@@ -356,8 +356,8 @@ export function apply(ctx, config) {
     name: "dev_uuid_gen",
     description: "生成 UUID：a=数量，默认 1",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
-      a: { type: "string", description: "参数 a" },
+      text: { "type": "string", required: true, "description": "输入内容" },
+      a: { "type": "string", "description": "参数 a" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

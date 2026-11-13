@@ -356,8 +356,8 @@ export function apply(ctx, config) {
     name: "dev_json_merge",
     description: "JSON 合并：把参数 a 的 JSON 合并进来",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
-      a: { type: "string", description: "参数 a" },
+      text: { "type": "string", required: true, "description": "输入内容" },
+      a: { "type": "string", "description": "参数 a" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

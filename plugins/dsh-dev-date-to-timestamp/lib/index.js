@@ -356,7 +356,7 @@ export function apply(ctx, config) {
     name: "dev_date_to_timestamp",
     description: "日期转时间戳：支持 YYYY-MM-DD HH:mm:ss",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
+      text: { "type": "string", required: true, "description": "输入内容" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

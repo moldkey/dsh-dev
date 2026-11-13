@@ -356,7 +356,7 @@ export function apply(ctx, config) {
     name: "dev_ascii_table",
     description: "ASCII/Unicode 表：字符与码点对照",
     parameters: {
-      text: { type: "string", required: true, description: "输入内容" },
+      text: { "type": "string", required: true, "description": "输入内容" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {
