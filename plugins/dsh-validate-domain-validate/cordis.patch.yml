@@ -1,4 +1,0 @@
-# 校验：domain validate
-- insert:
-    - id: dsh-validate-domain-validate
-      name: "dsh-validate-domain-validate"

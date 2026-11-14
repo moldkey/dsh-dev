@@ -1,4 +1,0 @@
-# 校验：isbn10 validate
-- insert:
-    - id: dsh-validate-isbn10-validate
-      name: "dsh-validate-isbn10-validate"

@@ -1,4 +1,0 @@
-# 校验：imei validate
-- insert:
-    - id: dsh-validate-imei-validate
-      name: "dsh-validate-imei-validate"

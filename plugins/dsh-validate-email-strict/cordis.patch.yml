@@ -1,4 +1,0 @@
-# 校验：email strict
-- insert:
-    - id: dsh-validate-email-strict
-      name: "dsh-validate-email-strict"
